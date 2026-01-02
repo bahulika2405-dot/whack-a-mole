@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.screen {
+  margin-top: 80px;
+}
+
+.hidden {
+  display: none;
+}
+
+.info {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#grid {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.hole {
+  width: 90px;
+  height: 90px;
+  background: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mole {
+  background: brown;
+}
